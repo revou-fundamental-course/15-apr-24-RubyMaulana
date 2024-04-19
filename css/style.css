@@ -1,1 +1,82 @@
 /* Ini File Css */
+
+main {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.main-section {
+    padding: 16px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.section-cecius {
+    padding-top: 16px;
+}
+
+.section-fahrenheit {
+    padding-top: 16px;
+}
+
+.section-result {
+    padding-top: 16px;
+}
+
+.section-explanation {
+    padding-top: 16px;
+}
+
+
+
+textarea {
+    height: 32px;
+    width: 100%;
+    resize: none;
+    border-radius: 4px;
+    border: 2px lavender;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.button-wrapper {
+    padding-top: 8px;
+}
+#button-convert {
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 8px;    
+}
+
+#button-reset {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-right: 8px; 
+}
+
+#button-reverse {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
